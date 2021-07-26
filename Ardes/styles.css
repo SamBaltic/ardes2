@@ -1,0 +1,272 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	overflow-x: hidden;
+}
+.navbar{
+	display: flex;
+	align-items: center;
+	padding: 20px;
+}
+nav{
+	flex: 1;
+	text-align: right;
+	;
+}
+nav ul{
+	display: inline-block;
+	list-style-type: none;
+
+
+}
+nav ul li {
+	display: inline-block;
+	margin-right: 20px;
+	font-size: 1rem;
+	border-right: 1px solid #4f93d0;
+	
+}
+nav ul li a{
+transition: 0.5s;
+text-decoration: none;
+padding-right: 10px;
+font-weight: 700;
+text-transform: uppercase;
+color: #4f93d0;
+}
+nav ul li a:hover{
+	color: black;
+}
+nav p{
+	font-size: 1.5rem;
+	margin-right: 5rem;
+	margin-top: 5px;
+	color: #4f93d0;
+	}
+nav i{
+	color: #4f93d0;
+}
+.landing-img{
+	width: 100%;
+	height: 80%;
+	align-items: center;
+}
+.landing-img img{
+	width: 100%;
+	height: 100%;
+}
+
+.product{
+	display: inline-flex;
+	justify-content: space-between;
+	width: 100%;
+}
+.product img{
+	width: 450px;
+	height: 450px;
+	margin: 5rem 0;
+}
+.info-samsung h2{
+	text-transform: uppercase;
+	font-size: 1.8rem;
+	padding-bottom: 2rem;
+	margin-top: 5rem;
+}
+.info-samsung ul{
+	width: 60%;
+	text-align: left;
+	margin: 5rem 0;
+
+}
+.info-samsung li{
+	font-size: 1.3rem;
+	padding-bottom: 1rem;
+}
+
+.more-products{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+.item{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+	width: 100%;
+}
+.date{
+	border: 1px solid #4f93d0;
+	background: #4f93d0;
+	font-size: 1.9rem;
+	color: #fff;
+	font-style: italic;
+	width: 90%;
+	height: 4rem;
+	text-transform: uppercase;
+
+}
+.date span{
+	font-weight: 700;
+}
+
+.item h3{
+	font-weight: 500;
+	font-size: 1.8rem;
+	text-transform: uppercase;
+	width: 60%;
+	
+}
+.item img{
+	width: 450px;
+	height: 400px;
+	margin: 2rem 0;
+}
+
+.banner-btn-1{
+	display: flex;
+	width: 70%;
+	color: #000;
+	text-align: center;
+	justify-content: space-between;
+}
+.banner-btn-1 h1{
+	color: #000;
+	position: relative;
+	font-size: 3rem;
+}
+.banner-btn-1 a{
+	width: 150px;
+	text-decoration:none;
+	color: #000;
+	border: 5px solid #4f93d0;
+	position: relative;
+	transition: 0.5s;
+	margin: 5px 0;
+	padding: 0 10px;
+	font-size: 1.5rem;
+
+}
+.banner-btn-1 a span{
+	width: 0;
+	height: 100%;
+	position: absolute;
+	top:0;
+	left:0;
+	background:#4f93d0;
+	z-index:-1;
+	transition: 0.5s;
+}
+.banner-btn-1 a:hover span{
+	width: 100%;
+
+
+}
+.banner-btn-1 a:hover {
+	color: #333;
+
+}
+.strikethrough {
+  position: relative;
+  font-size: 2em;
+
+}
+.strikethrough:before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 50%;
+  right: 0;
+  border-top: 1px solid;
+  border-color: inherit;
+  width: 10%;
+
+  -webkit-transform:rotate(-5deg);
+  -moz-transform:rotate(-5deg);
+  -ms-transform:rotate(-5deg);
+  -o-transform:rotate(-5deg);
+  transform:rotate(-5deg);
+}
+
+.info-ardes{
+	width: 100%;
+	padding: 0 5rem ;
+	background: #4f93d0;
+	color: #fff;
+}
+.info-ardes p{
+	font-size: 2rem;
+	width: 70%;
+	padding:2rem 5rem 4rem 5em;
+}
+
+.location{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+.point{
+	display: flex;
+	justify-content: space-between;
+	width: 35%;
+	align-items: center;
+	text-align: center;
+}
+.towns{
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+}
+.point i{
+	font-size: 2.5rem;
+}
+.towns h1{
+	text-decoration: underline;
+	font-size: 0.8rem;
+}
+.towns h2{
+	font-size: 0.8rem;
+}
+footer{
+	text-align: center;
+}
+footer h1{
+	color: #333;
+	padding-bottom: 2rem;
+}
+footer p{
+	color: #333;
+	font-size: 1.6rem;
+	padding-bottom: 2rem;
+}
+footer ul{
+	display: inline-block;
+	list-style-type: none;
+	padding-bottom: 2rem;
+
+
+}
+footer ul li {
+	display: inline-block;
+	margin-right: 20px;
+	font-size: 2rem;
+}
+
+.instagram{
+	background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-background-clip: text;
+    background-clip: text;
+  -webkit-text-fill-color: transparent;
+}	
+.facebook i{
+	 color: #3b5998;
+}
+.twitter i{
+	color: #1da1f2;
+}
+.youtube i{
+	color: #c4302b ;
+}
+.linkedin i{
+	color: #0e76a8;
+}
